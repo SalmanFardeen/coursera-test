@@ -1,72 +1,93 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta
-        charset="utf-8">
-        <title>
-            Learn Cooking
-        </title>
-        <style> 
-        .Header{
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Learn Cooking
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .Header {
             color: rgb(140, 233, 145);
-            font-size: 40px;
+            font-size: 45px;
+
         }
-        .recipe{
+
+        .recipe {
             color: rgb(241, 155, 93);
         }
-        .doubleOreo{
-            color: rgb(255, 121, 44);
-        }
-            h1 {
-                color: rgb(143, 227, 238);
-            }
-            header{
-                font-size: 70px;
-                color: wheat;
-            }
-        </style>
-    </head>
-        <body>
-        <header>
-            Healthy <div class="Header" >Breakfast</div> 
-        </header>
-        <p></p>
-          <h1>
-             <u>Ingredients</u> 
-          </h1>
-          <ul>
-              <li> Milk</li>
-              <li>Donuts</li>
-              <li>Cookies
-                  <ul>
-                      <li>Chocolate</li>
-                      <li>Sugar</li>
-                      <li>Peanut Butter</li>
-                  </ul>
-              </li>
-          </ul>
-          <div>
-              <h1> <u>Recipe</u> </h1>
-              <ol>
-                  <section class="recipe">
-                  <li>Peel the top part</li>
-                  <li>Place another cookie</li>
-                  <li>Make a double Oreo
-                      <ol type="i" class="doubleOreo">
-                          <li>Peel off the top part</li>
-                          <li>Place another cookie on the middle</li>
-                          <li>Put back the top part</li>
-                      </ol>
-                    </section>
-                  </li>
-                  <li>Enjoy &copy;</li>
 
-            </ol>
-          </div>
-          <div>
-              To check more recipes please visit <a href="https://www.allrecipes.com/search/results/?sort=re&wt=breakfast">
-                  All Recipes
-              </a>
-          </div>
-        </body>
+        .doubleOreo {
+            color: rgb(250, 127, 70);
+        }
+
+        h1 {
+            color: rgb(143, 227, 238);
+        }
+
+        header {
+            font-size: 70px;
+            color: wheat !important;
+        }
+
+        div a {
+            color: rgb(212, 74, 74);
+            display: block;
+            width: 70px;
+        }
+
+        a:hover,
+        a:active {
+            color: rgb(150, 150, 211);
+            cursor: pointer;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Healthy <div class="Header">Breakfast</div>
+    </header>
+    <p></p>
+    <h1>
+        <u>Ingredients</u>
+    </h1>
+    <ul class="first">
+        <li> Milk</li>
+        <li>Donuts</li>
+        <li>Cookies
+            <ul>
+                <li>Chocolate</li>
+                <li>Sugar</li>
+                <li>Peanut Butter</li>
+            </ul>
+        </li>
+    </ul>
+    <div>
+        <h1> <u>Recipe</u> </h1>
+        <ol>
+            <section class="recipe">
+                <li>Peel the top part</li>
+                <li>Place another cookie</li>
+                <li>Make a double Oreo
+                    <ol type="i" class="doubleOreo">
+                        <li>Peel off the top part</li>
+                        <li>Place another cookie on the middle</li>
+                        <li>Put back the top part</li>
+                    </ol>
+            </section>
+            </li>
+            <li>Enjoy &copy;</li>
+
+        </ol>
+    </div>
+    <div>
+        To check more recipes please visit <a href="https://www.allrecipes.com/search/results/?sort=re&wt=breakfast">
+            All Recipes
+        </a>
+    </div>
+</body>
+
 </html>
